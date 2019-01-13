@@ -9,6 +9,9 @@ services:
     image: binakot/postgresql-postgis-timescaledb
     environment:
       - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/init-schema.sql
+      - ./data.sql:/docker-entrypoint-initdb.d/load-data.sql
     ports:
       - 5432:5432
     networks:
