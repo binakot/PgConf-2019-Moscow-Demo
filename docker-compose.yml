@@ -1,0 +1,25 @@
+version: '3.5'
+
+networks:
+  overlay:
+    driver: overlay
+
+services:
+  postgres:
+    image: binakot/postgresql-postgis-timescaledb
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    networks:
+      - overlay
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=binakot@pgconf.ru
+      - PGADMIN_DEFAULT_PASSWORD=PgConfIsAwesome
+    ports:
+      - 5433:80
+    networks:
+      - overlay
