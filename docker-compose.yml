@@ -1,8 +1,7 @@
-version: '3.5'
+version: '3.4'
 
 networks:
   overlay:
-    driver: overlay
 
 services:
   postgres:
@@ -20,8 +19,8 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      - PGADMIN_DEFAULT_EMAIL=binakot@pgconf.ru
-      - PGADMIN_DEFAULT_PASSWORD=PgConfIsAwesome
+      - PGADMIN_DEFAULT_EMAIL=admin@pgconf.ru
+      - PGADMIN_DEFAULT_PASSWORD=admin
     ports:
       - 5433:80
     networks:

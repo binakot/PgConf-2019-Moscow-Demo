@@ -22,7 +22,7 @@ There are the stack of two applications via docker-compose yaml file with:
 
 * Postgres 11.1 + PostGIS 2.5.1 + TimescaleDB 1.1.1
 
-* PgAdmin 4 (`binakot@pgconf.ru / PgConfIsAwesome` on [http://localhost:5433](http://localhost:5433))
+* PgAdmin 4 (`admin@pgconf.ru / admin` on [http://localhost:5433](http://localhost:5433))
 
 To get access from `pgAdmin4` you need to use next connection settings:
 
