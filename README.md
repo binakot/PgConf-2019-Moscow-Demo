@@ -6,7 +6,7 @@ This is the demo for my presentation on [PgConf.Russia 2019](https://pgconf.ru/2
 
 Here is the announcement of my speech: [https://pgconf.ru/2019/242909](https://pgconf.ru/2019/242909).
 
-Here is the slides: [https://speakerdeck.com/binakot/postgresql-plus-postgis-plus-timescaledb-storage-for-monitoring-systems](https://speakerdeck.com/binakot/postgresql-plus-postgis-plus-timescaledb-storage-for-monitoring-systems) or [https://www.slideshare.net/IvanMuratov1/postgresql-postgis-timescaledb-storage-for-monitoring-systems](https://www.slideshare.net/IvanMuratov1/postgresql-postgis-timescaledb-storage-for-monitoring-systems)
+The slides are on [speakerdeck](https://speakerdeck.com/binakot/postgresql-plus-postgis-plus-timescaledb-storage-for-monitoring-systems) or [slideshare](https://www.slideshare.net/IvanMuratov1/postgresql-postgis-timescaledb-storage-for-monitoring-systems)
 
 The database contains a schema for demonstration of the idea 
 to work with telematics and telemetry via PostgeSQL.
